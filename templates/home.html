@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block 'titulo' %} Usuario {% endblock %}
+
+
+{% block 'conteudo' %}
+    
+
+    {% for livro in Livros %}
+        {{livro}}
+
+    {% endfor %}
+
+{% endblock%}
